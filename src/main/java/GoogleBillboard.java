@@ -8,11 +8,11 @@ public class GoogleBillboard {
 			dNum = Double.parseDouble(digits);
 			if(isPrime(dNum) == true){
     				System.out.println(dNum + "");
+				break;
    			}
 		}
 	}
 	
-
 	//Finish this function
 	public static boolean isPrime(double d){
 		  if(d < 2){
@@ -26,6 +26,5 @@ public class GoogleBillboard {
 		}
   	return true;
 	}
-
 }
 
