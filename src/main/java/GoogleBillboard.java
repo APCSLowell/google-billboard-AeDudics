@@ -3,11 +3,12 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 		String digits;
 		double dNum;
-		for(int i = 2; i <e.length(); i++){
+		for(int i = 2; i <= e.length()-1; i++){
 			digits = e.substring(i, i + 10);
 			dNum = Double.parseDouble(digits);
 			if(isPrime(dNum) == true){
     				System.out.println(dNum + "");
+				break;
    			}
 		}
 	}
